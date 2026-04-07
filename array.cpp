@@ -10,3 +10,6 @@ int main()
 
     //Cara akses (membaca atau mengambil isi array)
     cout << "Isi data kedua : " << dataku[1] << endl;
+    //Mengisi array
+    dataku[1] = 200;
+}
