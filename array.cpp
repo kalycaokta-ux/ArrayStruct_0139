@@ -50,4 +50,9 @@ int main()
     cout << endl;
 
     cout << "Tampilkan Data Array Menggunakan For" << endl;
+    //Menampilkan data dengan perulangan
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "Data ke-" << (i + 1) << " : " << datamu [i] << endl;
+    }
 }
