@@ -26,7 +26,7 @@ int main ()
     cout << "Isikan data kota : ";
     getline(cin , mhs.alamat.kota);
     cout << "Isikan data umur : ";
-    getline(cin , mhs.umur);
+    cin >> mhs.umur;
     cout << endl;
 
     cout << "Data Tampil" << endl;
